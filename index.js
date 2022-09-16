@@ -27,7 +27,7 @@ app.route("").get((req, res) =>{
 // api routes
 app.use("/api", apiRoutes);
 
-app.use(express.static(path.join(__dirname, "/signium_task/build")));
+app.use(express.static(path.join(__dirname, "./signium_task/build")));
 
 
 // app listening port
