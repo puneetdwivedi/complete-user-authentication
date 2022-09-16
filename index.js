@@ -5,6 +5,7 @@ const cors = require("cors");
 const dbConnect = require("./database/dbConnect.js");
 const bodyParser = require("body-parser");
 const apiRoutes = require("./src/api/routes/routes.js");
+const path = require("path");
 
 
 // env configuration
