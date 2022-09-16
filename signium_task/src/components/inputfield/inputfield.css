@@ -1,0 +1,25 @@
+.inputfield {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+@media (max-width: 500px) {
+  .inputfield {
+    font-size: 0.9rem;
+  }
+}
+.inputfield input {
+  padding: 0.275rem 0.65rem;
+  width: 80%;
+}
+.inputfield input:invalid[focused=true] ~ span {
+  display: block;
+}
+.inputfield span {
+  font-size: 0.7rem;
+  color: red;
+  font-weight: 500;
+  display: none;
+}/*# sourceMappingURL=inputfield.css.map */

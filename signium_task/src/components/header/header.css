@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  background-color: rgb(45, 44, 44);
+  color: white;
+  padding: 0.8rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.header ul li {
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.header ul li:hover {
+  color: #eaeaea;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,29 @@
+.inputfield {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // border: 1px black solid;
+    gap: 0.4rem;
+
+    @media (max-width: 500px) {
+        font-size: 0.9rem;
+    }
+
+    & input {
+        padding: 0.275rem 0.65rem;
+        // border-style: none;
+        width: 80%;
+    }
+
+    & input:invalid[focused='true']~span {
+        display: block;
+    }
+
+    & span {
+        font-size: 0.7rem;
+        color: red;
+        font-weight: 500;
+        display: none;
+    }
+}

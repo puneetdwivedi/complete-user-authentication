@@ -1,0 +1,76 @@
+.loginsection {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.loginsection .loginformcontainer {
+  margin-top: 3rem;
+  width: 20%;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  color: rgb(33, 37, 41);
+}
+@media (max-width: 1200px) {
+  .loginsection .loginformcontainer {
+    width: 28%;
+  }
+}
+@media (max-width: 1000px) {
+  .loginsection .loginformcontainer {
+    width: 32%;
+  }
+}
+@media (max-width: 900px) {
+  .loginsection .loginformcontainer {
+    width: 38%;
+  }
+}
+@media (max-width: 750px) {
+  .loginsection .loginformcontainer {
+    width: 48%;
+  }
+}
+@media (max-width: 620px) {
+  .loginsection .loginformcontainer {
+    width: 60%;
+    padding: 0.8rem 2.2rem;
+  }
+}
+@media (max-width: 520px) {
+  .loginsection .loginformcontainer {
+    width: 65%;
+  }
+}
+@media (max-width: 420px) {
+  .loginsection .loginformcontainer {
+    width: 70%;
+  }
+}
+.loginsection .loginformcontainer h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.loginsection .loginformcontainer form button {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 0.275rem 1.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  border-radius: 0.25rem;
+  border-style: none;
+  background-color: rgb(33, 37, 41);
+  cursor: pointer;
+  color: #f8f9fa;
+  border: 1px #f8f9fa solid;
+  transition: all ease-in-out 0.25s;
+}
+.loginsection .loginformcontainer form button:hover {
+  background-color: #f8f9fa;
+  color: rgb(33, 37, 41);
+  border-color: #f8f9fa;
+  box-shadow: 1px 1px 8px 1px #f8f9fa;
+}/*# sourceMappingURL=loginsection.css.map */

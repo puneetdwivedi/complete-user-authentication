@@ -1,0 +1,88 @@
+.signupsection {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+
+    & .signupsectioncontainer {
+        margin-top: 3rem;
+        width: 22%;
+        padding: 1rem 2.5rem;
+        background-color: white;
+        border-radius: 1rem;
+        color: rgb(33, 37, 41);
+
+        @media(max-width:1200px) {
+            width: 28%;
+        }
+
+        @media(max-width:1000px) {
+            width: 32%;
+        }
+
+        @media(max-width:900px) {
+            width: 38%;
+        }
+
+        @media(max-width:750px) {
+            width: 48%;
+        }
+
+        @media(max-width:620px) {
+            width: 60%;
+            padding: 0.8rem 2.2rem;
+        }
+
+        @media(max-width:520px) {
+            width: 65%;
+        }
+
+        @media(max-width:420px) {
+            width: 70%;
+        }
+
+        & h1 {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        & form {
+            & button {
+                margin: 0 auto;
+                margin-top: 1.5rem;
+                padding: 0.275rem 1.75rem;
+                font-size: 1rem;
+                line-height: 1.4;
+                border-radius: 0.25rem;
+                border-style: none;
+                // margin-left: 1rem;
+                background-color: rgb(33, 37, 41);
+                cursor: pointer;
+                color: #f8f9fa;
+                border: 1px #f8f9fa solid;
+                transition: all ease-in-out 0.25s;
+                // width: 40%;
+
+                &:hover {
+                    background-color: #f8f9fa;
+                    color: rgb(33, 37, 41);
+                    border-color: #f8f9fa;
+                    box-shadow: 1px 1px 8px 1px #f8f9fa;
+                }
+            }
+        }
+    }
+}
+
+.responsebutton {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    & span {
+        color: red;
+    }
+}

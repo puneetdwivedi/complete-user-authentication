@@ -1,0 +1,25 @@
+.loginsignupbutton .loginsignupbutton_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.loginsignupbutton .loginsignupbutton_container button {
+  margin-top: 1.5rem;
+  padding: 0.275rem 1.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  border-radius: 0.25rem;
+  border-style: none;
+  background-color: rgb(33, 37, 41);
+  cursor: pointer;
+  color: #f8f9fa;
+  border: 1px #f8f9fa solid;
+  transition: all ease-in-out 0.25s;
+}
+.loginsignupbutton .loginsignupbutton_container button:hover {
+  background-color: #f8f9fa;
+  color: rgb(33, 37, 41);
+  border-color: #f8f9fa;
+  box-shadow: 1px 1px 8px 1px #f8f9fa;
+}/*# sourceMappingURL=loginsignupbutton.css.map */

@@ -1,0 +1,86 @@
+.signupsection {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.signupsection .signupsectioncontainer {
+  margin-top: 3rem;
+  width: 22%;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  color: rgb(33, 37, 41);
+}
+@media (max-width: 1200px) {
+  .signupsection .signupsectioncontainer {
+    width: 28%;
+  }
+}
+@media (max-width: 1000px) {
+  .signupsection .signupsectioncontainer {
+    width: 32%;
+  }
+}
+@media (max-width: 900px) {
+  .signupsection .signupsectioncontainer {
+    width: 38%;
+  }
+}
+@media (max-width: 750px) {
+  .signupsection .signupsectioncontainer {
+    width: 48%;
+  }
+}
+@media (max-width: 620px) {
+  .signupsection .signupsectioncontainer {
+    width: 60%;
+    padding: 0.8rem 2.2rem;
+  }
+}
+@media (max-width: 520px) {
+  .signupsection .signupsectioncontainer {
+    width: 65%;
+  }
+}
+@media (max-width: 420px) {
+  .signupsection .signupsectioncontainer {
+    width: 70%;
+  }
+}
+.signupsection .signupsectioncontainer h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.signupsection .signupsectioncontainer form button {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 0.275rem 1.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  border-radius: 0.25rem;
+  border-style: none;
+  background-color: rgb(33, 37, 41);
+  cursor: pointer;
+  color: #f8f9fa;
+  border: 1px #f8f9fa solid;
+  transition: all ease-in-out 0.25s;
+}
+.signupsection .signupsectioncontainer form button:hover {
+  background-color: #f8f9fa;
+  color: rgb(33, 37, 41);
+  border-color: #f8f9fa;
+  box-shadow: 1px 1px 8px 1px #f8f9fa;
+}
+
+.responsebutton {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.responsebutton span {
+  color: red;
+}/*# sourceMappingURL=signupsection.css.map */
