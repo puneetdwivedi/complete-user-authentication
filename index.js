@@ -16,21 +16,26 @@ dbConnect();
 
 app.use(cors())
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // routes
-app.route("").get((req, res) =>{
+app.route("").get((req, res) => {
     res.send("hello try for /api/register or /api/login");
 })
 
 // api routes
 app.use("/api", apiRoutes);
 
-app.use(express.static(path.join(__dirname, "./signium_task/build")));
+// static file
+app.use(express.static(path.join(__dirname, "/signium_task/build")));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/signium_task/build', 'index.html'));
+});
 
 
 // app listening port
-app.listen(process.env.PORT, ()=>{
+app.listen(process.env.PORT, () => {
     console.log("Server is listening");
 })
