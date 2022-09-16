@@ -19,13 +19,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-// routes
-app.route("").get((req, res) => {
-    res.send("hello try for /api/register or /api/login");
-})
-
 // api routes
 app.use("/api", apiRoutes);
+
 
 // static file
 app.use(express.static(path.join(__dirname, "/signium_task/build")));
