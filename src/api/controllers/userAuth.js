@@ -23,7 +23,7 @@ const userAuth = async (req, res) => {
             }
         }
     } catch (err) {
-        res.status(500).json({ success: "ok", result: err });
+        res.status(500).json({ success: "fail", result: err });
     }
 }
 
